@@ -88,4 +88,4 @@ def print_RES(r):
     else:
         print("Nervous: Negative")
 RESULT=prediction(X_train,Y_train,X_test)
-print(print_RES(RESULT))
+print_RES(RESULT)
